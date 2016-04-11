@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3011F8CC1CBB5F6E004A3C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8CB1CBB5F6E004A3C6C /* AppDelegate.swift */; };
+		3011F8CE1CBB5F6E004A3C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8CD1CBB5F6E004A3C6C /* ViewController.swift */; };
+		3011F8D11CBB5F6E004A3C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3011F8CF1CBB5F6E004A3C6C /* Main.storyboard */; };
+		3011F8D31CBB5F6E004A3C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3011F8D21CBB5F6E004A3C6C /* Assets.xcassets */; };
+		3011F8D61CBB5F6E004A3C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3011F8D41CBB5F6E004A3C6C /* LaunchScreen.storyboard */; };
+		3011F8E11CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8E01CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift */; };
+		3011F8EC1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8EB1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3011F8DD1CBB5F6E004A3C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3011F8C01CBB5F6E004A3C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3011F8C71CBB5F6E004A3C6C;
+			remoteInfo = "How Old is My Cat?";
+		};
+		3011F8E81CBB5F6E004A3C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3011F8C01CBB5F6E004A3C6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3011F8C71CBB5F6E004A3C6C;
+			remoteInfo = "How Old is My Cat?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3011F8C81CBB5F6E004A3C6C /* How Old is My Cat?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How Old is My Cat?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3011F8CB1CBB5F6E004A3C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3011F8CD1CBB5F6E004A3C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3011F8D01CBB5F6E004A3C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3011F8D21CBB5F6E004A3C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3011F8D51CBB5F6E004A3C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3011F8D71CBB5F6E004A3C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3011F8DC1CBB5F6E004A3C6C /* How Old is My Cat?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old is My Cat?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3011F8E01CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_is_My_Cat_Tests.swift; sourceTree = "<group>"; };
+		3011F8E21CBB5F6E004A3C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3011F8E71CBB5F6E004A3C6C /* How Old is My Cat?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old is My Cat?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3011F8EB1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_is_My_Cat_UITests.swift; sourceTree = "<group>"; };
+		3011F8ED1CBB5F6E004A3C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3011F8C51CBB5F6E004A3C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8D91CBB5F6E004A3C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8E41CBB5F6E004A3C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3011F8BF1CBB5F6E004A3C6C = {
+			isa = PBXGroup;
+			children = (
+				3011F8CA1CBB5F6E004A3C6C /* How Old is My Cat? */,
+				3011F8DF1CBB5F6E004A3C6C /* How Old is My Cat?Tests */,
+				3011F8EA1CBB5F6E004A3C6C /* How Old is My Cat?UITests */,
+				3011F8C91CBB5F6E004A3C6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3011F8C91CBB5F6E004A3C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3011F8C81CBB5F6E004A3C6C /* How Old is My Cat?.app */,
+				3011F8DC1CBB5F6E004A3C6C /* How Old is My Cat?Tests.xctest */,
+				3011F8E71CBB5F6E004A3C6C /* How Old is My Cat?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3011F8CA1CBB5F6E004A3C6C /* How Old is My Cat? */ = {
+			isa = PBXGroup;
+			children = (
+				3011F8CB1CBB5F6E004A3C6C /* AppDelegate.swift */,
+				3011F8CD1CBB5F6E004A3C6C /* ViewController.swift */,
+				3011F8CF1CBB5F6E004A3C6C /* Main.storyboard */,
+				3011F8D21CBB5F6E004A3C6C /* Assets.xcassets */,
+				3011F8D41CBB5F6E004A3C6C /* LaunchScreen.storyboard */,
+				3011F8D71CBB5F6E004A3C6C /* Info.plist */,
+			);
+			path = "How Old is My Cat?";
+			sourceTree = "<group>";
+		};
+		3011F8DF1CBB5F6E004A3C6C /* How Old is My Cat?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3011F8E01CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift */,
+				3011F8E21CBB5F6E004A3C6C /* Info.plist */,
+			);
+			path = "How Old is My Cat?Tests";
+			sourceTree = "<group>";
+		};
+		3011F8EA1CBB5F6E004A3C6C /* How Old is My Cat?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3011F8EB1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift */,
+				3011F8ED1CBB5F6E004A3C6C /* Info.plist */,
+			);
+			path = "How Old is My Cat?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3011F8C71CBB5F6E004A3C6C /* How Old is My Cat? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3011F8F01CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?" */;
+			buildPhases = (
+				3011F8C41CBB5F6E004A3C6C /* Sources */,
+				3011F8C51CBB5F6E004A3C6C /* Frameworks */,
+				3011F8C61CBB5F6E004A3C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How Old is My Cat?";
+			productName = "How Old is My Cat?";
+			productReference = 3011F8C81CBB5F6E004A3C6C /* How Old is My Cat?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3011F8DB1CBB5F6E004A3C6C /* How Old is My Cat?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3011F8F31CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?Tests" */;
+			buildPhases = (
+				3011F8D81CBB5F6E004A3C6C /* Sources */,
+				3011F8D91CBB5F6E004A3C6C /* Frameworks */,
+				3011F8DA1CBB5F6E004A3C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3011F8DE1CBB5F6E004A3C6C /* PBXTargetDependency */,
+			);
+			name = "How Old is My Cat?Tests";
+			productName = "How Old is My Cat?Tests";
+			productReference = 3011F8DC1CBB5F6E004A3C6C /* How Old is My Cat?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3011F8E61CBB5F6E004A3C6C /* How Old is My Cat?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3011F8F61CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?UITests" */;
+			buildPhases = (
+				3011F8E31CBB5F6E004A3C6C /* Sources */,
+				3011F8E41CBB5F6E004A3C6C /* Frameworks */,
+				3011F8E51CBB5F6E004A3C6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3011F8E91CBB5F6E004A3C6C /* PBXTargetDependency */,
+			);
+			name = "How Old is My Cat?UITests";
+			productName = "How Old is My Cat?UITests";
+			productReference = 3011F8E71CBB5F6E004A3C6C /* How Old is My Cat?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3011F8C01CBB5F6E004A3C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Colangelo";
+				TargetAttributes = {
+					3011F8C71CBB5F6E004A3C6C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3011F8DB1CBB5F6E004A3C6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3011F8C71CBB5F6E004A3C6C;
+					};
+					3011F8E61CBB5F6E004A3C6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3011F8C71CBB5F6E004A3C6C;
+					};
+				};
+			};
+			buildConfigurationList = 3011F8C31CBB5F6E004A3C6C /* Build configuration list for PBXProject "How Old is My Cat?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3011F8BF1CBB5F6E004A3C6C;
+			productRefGroup = 3011F8C91CBB5F6E004A3C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3011F8C71CBB5F6E004A3C6C /* How Old is My Cat? */,
+				3011F8DB1CBB5F6E004A3C6C /* How Old is My Cat?Tests */,
+				3011F8E61CBB5F6E004A3C6C /* How Old is My Cat?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3011F8C61CBB5F6E004A3C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011F8D61CBB5F6E004A3C6C /* LaunchScreen.storyboard in Resources */,
+				3011F8D31CBB5F6E004A3C6C /* Assets.xcassets in Resources */,
+				3011F8D11CBB5F6E004A3C6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8DA1CBB5F6E004A3C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8E51CBB5F6E004A3C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3011F8C41CBB5F6E004A3C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011F8CE1CBB5F6E004A3C6C /* ViewController.swift in Sources */,
+				3011F8CC1CBB5F6E004A3C6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8D81CBB5F6E004A3C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011F8E11CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3011F8E31CBB5F6E004A3C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3011F8EC1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3011F8DE1CBB5F6E004A3C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3011F8C71CBB5F6E004A3C6C /* How Old is My Cat? */;
+			targetProxy = 3011F8DD1CBB5F6E004A3C6C /* PBXContainerItemProxy */;
+		};
+		3011F8E91CBB5F6E004A3C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3011F8C71CBB5F6E004A3C6C /* How Old is My Cat? */;
+			targetProxy = 3011F8E81CBB5F6E004A3C6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3011F8CF1CBB5F6E004A3C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3011F8D01CBB5F6E004A3C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3011F8D41CBB5F6E004A3C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3011F8D51CBB5F6E004A3C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3011F8EE1CBB5F6E004A3C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3011F8EF1CBB5F6E004A3C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3011F8F11CBB5F6E004A3C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Old is My Cat?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3011F8F21CBB5F6E004A3C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "How Old is My Cat?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3011F8F41CBB5F6E004A3C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Old is My Cat?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Old is My Cat?.app/How Old is My Cat?";
+			};
+			name = Debug;
+		};
+		3011F8F51CBB5F6E004A3C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How Old is My Cat?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How Old is My Cat?.app/How Old is My Cat?";
+			};
+			name = Release;
+		};
+		3011F8F71CBB5F6E004A3C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "How Old is My Cat?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "How Old is My Cat?";
+			};
+			name = Debug;
+		};
+		3011F8F81CBB5F6E004A3C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "How Old is My Cat?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.test.How-Old-is-My-Cat-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "How Old is My Cat?";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3011F8C31CBB5F6E004A3C6C /* Build configuration list for PBXProject "How Old is My Cat?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3011F8EE1CBB5F6E004A3C6C /* Debug */,
+				3011F8EF1CBB5F6E004A3C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3011F8F01CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3011F8F11CBB5F6E004A3C6C /* Debug */,
+				3011F8F21CBB5F6E004A3C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3011F8F31CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3011F8F41CBB5F6E004A3C6C /* Debug */,
+				3011F8F51CBB5F6E004A3C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3011F8F61CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3011F8F71CBB5F6E004A3C6C /* Debug */,
+				3011F8F81CBB5F6E004A3C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3011F8C01CBB5F6E004A3C6C /* Project object */;
+}
