@@ -14,6 +14,7 @@
 		3011F8D61CBB5F6E004A3C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3011F8D41CBB5F6E004A3C6C /* LaunchScreen.storyboard */; };
 		3011F8E11CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8E01CBB5F6E004A3C6C /* How_Old_is_My_Cat_Tests.swift */; };
 		3011F8EC1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3011F8EB1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift */; };
+		30791C641CBDFE9B001BE61B /* FreeVector-Gray-Cartoon-Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30791C631CBDFE9B001BE61B /* FreeVector-Gray-Cartoon-Cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3011F8E71CBB5F6E004A3C6C /* How Old is My Cat?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How Old is My Cat?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3011F8EB1CBB5F6E004A3C6C /* How_Old_is_My_Cat_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_Old_is_My_Cat_UITests.swift; sourceTree = "<group>"; };
 		3011F8ED1CBB5F6E004A3C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30791C631CBDFE9B001BE61B /* FreeVector-Gray-Cartoon-Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "FreeVector-Gray-Cartoon-Cat.jpg"; path = "../../../../../../Downloads/gray_cartoon_cat/FreeVector-Gray-Cartoon-Cat.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3011F8CB1CBB5F6E004A3C6C /* AppDelegate.swift */,
 				3011F8CD1CBB5F6E004A3C6C /* ViewController.swift */,
 				3011F8CF1CBB5F6E004A3C6C /* Main.storyboard */,
+				30791C631CBDFE9B001BE61B /* FreeVector-Gray-Cartoon-Cat.jpg */,
 				3011F8D21CBB5F6E004A3C6C /* Assets.xcassets */,
 				3011F8D41CBB5F6E004A3C6C /* LaunchScreen.storyboard */,
 				3011F8D71CBB5F6E004A3C6C /* Info.plist */,
@@ -232,6 +235,7 @@
 				3011F8D61CBB5F6E004A3C6C /* LaunchScreen.storyboard in Resources */,
 				3011F8D31CBB5F6E004A3C6C /* Assets.xcassets in Resources */,
 				3011F8D11CBB5F6E004A3C6C /* Main.storyboard in Resources */,
+				30791C641CBDFE9B001BE61B /* FreeVector-Gray-Cartoon-Cat.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				3011F8F21CBB5F6E004A3C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3011F8F31CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				3011F8F51CBB5F6E004A3C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3011F8F61CBB5F6E004A3C6C /* Build configuration list for PBXNativeTarget "How Old is My Cat?UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				3011F8F81CBB5F6E004A3C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
