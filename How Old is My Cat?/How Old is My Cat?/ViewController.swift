@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     
     @IBAction func findAge(sender: AnyObject) {
+        var catAge = Int(catAgeTextField.text!)!
+        catAge = catAge * 7
+        resultLabel.text = "Your cat is \(catAge) in cat years!"
     }
     
     override func viewDidLoad() {

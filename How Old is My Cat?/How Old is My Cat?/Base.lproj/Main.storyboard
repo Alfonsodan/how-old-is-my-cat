@@ -17,41 +17,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How old is my cat?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZz-xd-2bj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="How old is my cat?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZz-xd-2bj">
                                 <rect key="frame" x="163" y="28" width="275" height="104"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
                                 <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is your cats age?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hof-P2-fnM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="What is your cats age?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hof-P2-fnM">
                                 <rect key="frame" x="209" y="140" width="183" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OV2-JV-zXq">
-                                <rect key="frame" x="252" y="214" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9h-Xm-9uZ">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9h-Xm-9uZ">
                                 <rect key="frame" x="234" y="285" width="147" height="30"/>
                                 <state key="normal" title="Find age in cat years."/>
                                 <connections>
                                     <action selector="findAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aDt-6f-zaT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-8s-j1O">
-                                <rect key="frame" x="279" y="323" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJz-8s-j1O">
+                                <rect key="frame" x="215" y="323" width="170" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FreeVector-Gray-Cartoon-Cat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ul0-of-Opr">
-                                <rect key="frame" x="107" y="359" width="387" height="233"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OV2-JV-zXq">
+                                <rect key="frame" x="268" y="215" width="65" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="FreeVector-Gray-Cartoon-Cat.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ul0-of-Opr">
+                                <rect key="frame" x="163" y="352" width="259" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="259" id="BMH-Kv-aZQ"/>
+                                    <constraint firstAttribute="height" constant="151" id="XkR-il-Qwp"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x9h-Xm-9uZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6hU-7T-p7v"/>
+                            <constraint firstItem="wZz-xd-2bj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Azh-N1-pBX"/>
+                            <constraint firstItem="aJz-8s-j1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FGE-gr-xUL"/>
+                            <constraint firstItem="ul0-of-Opr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pb0-xC-QK0"/>
+                            <constraint firstItem="Hof-P2-fnM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SQU-iG-hAM"/>
+                            <constraint firstItem="ul0-of-Opr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aNl-n7-XY4"/>
+                            <constraint firstItem="OV2-JV-zXq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h8f-Zi-FOE"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="catAgeTextField" destination="OV2-JV-zXq" id="7Qk-4h-uco"/>
